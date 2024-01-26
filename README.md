@@ -14,4 +14,4 @@ es:
 pip install pandas
 ```
 
-![text if image cannot be loaded](py_code..jpg)
+![text if image cannot be loaded](py_code.jpg)
