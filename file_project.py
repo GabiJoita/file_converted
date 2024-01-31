@@ -16,13 +16,14 @@ def open_file_txt(file_name_txt:str):
     """open the previews files in txt"""
     with open(file_name_txt, 'w' ) as fr:
         fr.write(open_file_csv(file_name_csv))
+    return open_file_csv(file_name_txt)
         
 
 if __name__ == "__main__":
     file_name_excel = 'users.xlsx'
     file_name_csv = 'users.csv'
     file_name_txt = 'users.txt'
-    open_excel_to_csv(file_name_excel, file_name_csv)
-    open_file_csv(file_name_csv)
-    open_file_txt(file_name_txt)
+    print(open_excel_to_csv(file_name_excel, file_name_csv))
+    print(open_file_csv(file_name_csv))
+    print(open_file_txt(file_name_txt))
 
