@@ -1,7 +1,7 @@
 import pandas as pd
 
 def create_excel_content(file_name_excel:str):
-    """return columns and rows with data"""
+    """write columns and rows with data"""
     data = {'name': ['gabi', 'alin', 'joita'],
             'password': [1234, 5678, 9101],
             'username': ['gabi_123', 'alin_456', 'joita_789'],
