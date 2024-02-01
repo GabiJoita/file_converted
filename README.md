@@ -2,6 +2,13 @@
 
 > quote
 
+Note:
+```
+This project contains 2 python apllications, one wich can use to create
+a file and open it, and we can use the second, to open the file 
+as an input.
+```
+
 A preview code:
 ```
 import pandas as pd
@@ -12,7 +19,7 @@ def open_excel_to_csv():
 if __name__ == "__main__":
     pass
 ```
-Importan:
+Important:
 ```
 Make sure you installed pandas library 
 
