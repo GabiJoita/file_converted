@@ -4,7 +4,7 @@
 
 Note:
 ```
-This project contains 2 python apllications, one wich can use to create
+This project contains 2 python apllications, one which can use to create
 a file and open it, and we can use the second, to open the file 
 as an input.
 ```
